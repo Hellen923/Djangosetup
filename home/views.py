@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 # Create your views here.
 def homePage(request):
-    return HttpResponse("Hello there, hoping your alright.")
+    return HttpResponse("Hello there, hoping your alright. My name is KIWAGAMA HELLEN TUNWERE.")
 
 def aboutPage(request):
-    return HttpResponse(" My name is KIWAGAMA HELLEN TUNWERE. I am a very adventourous lady, ready to grab every worth oppurtunity ,to explore alot of things. ")
+    return HttpResponse("I am a very adventourous lady, ready to grab every worth oppurtunity ,to explore alot of things. ")
